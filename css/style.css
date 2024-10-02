@@ -1,0 +1,38 @@
+/*Fontes gerais*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Emoji:wght@300..700&family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+
+body{
+    font-family:"Teko, serif" ; /*fonte para definir*/
+    color:rgb(27, 63, 82) ; /*cor pardaão da fonte*/
+    background: rgb(225, 224, 224); /*cor do fundo*/
+}
+a{
+    text-decoration: none;
+    color: rgb(91, 169, 224);
+}
+a:hover{ /*pseudo-classe*/
+    color: rgb(103, 155, 245);
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lora";
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background:rgb(43, 68, 90) ;/*fundo header vertical*/
+    transition: all ease-in-out 2s;
+    z-index: 9999;
+    padding: 0 15px;
+    overflow-y: auto;
+}
+#header .perfil img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 4px solid rgb(51, 51, 92);
+
+}
